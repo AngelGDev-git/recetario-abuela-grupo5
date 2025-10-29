@@ -1,0 +1,140 @@
+export const recipes = [
+  {
+    id: 1,
+    name: "Dulce de Leche Dominicano",
+    image: "/images/dulce-leche.jpg",
+    prepTime: "2 horas",
+    difficulty: "Media",
+    ingredients: [
+      "4 litros de leche entera",
+      "1 kg de azúcar",
+      "1 raja de canela grande",
+      "1 cucharadita de bicarbonato de sodio",
+      "1 cucharada de esencia de vainilla",
+      "5 clavos de olor (opcional)",
+      "Piel de naranja (opcional)"
+    ],
+    steps: [
+      "En una olla grande y pesada, vierte la leche y añade el azúcar",
+      "Agrega la raja de canela y los clavos de olor si decides usarlos",
+      "Calienta a fuego medio revolviendo constantemente hasta que el azúcar se disuelva",
+      "Cuando empiece a hervir, añade el bicarbonato disuelto en una cucharada de agua",
+      "Reduce el fuego a bajo y cocina por 1.5-2 horas, revolviendo cada 10-15 minutos",
+      "La mezcla se irá espesando y tomando un color caramelo characteristico",
+      "Cuando alcance la consistencia deseada, retira del fuego y añade la vainilla",
+      "Remueve la canela y los clavos antes de envasar",
+      "Vierte en frascos de vidrio esterilizados y deja enfriar completamente"
+    ],
+    story: "Esta receta ha pasado por tres generaciones en mi familia. Mi bisabuela María la preparaba para las fiestas patronales de San Juan, usando leche fresca de las vacas de la familia. Ella decía que el secreto estaba en la paciencia y en revolver siempre en la misma dirección. Hoy, cada vez que preparo este dulce, recuerdo los veranos en el campo y el aroma que llenaba toda la casa."
+  },
+  {
+    id: 2,
+    name: "Chacá Dominicano",
+    image: "/images/chaca.jpg",
+    prepTime: "1.5 horas",
+    difficulty: "Fácil",
+    ingredients: [
+      "2 tazas de maíz trillado (maíz pelado)",
+      "1 litro de leche de coco natural",
+      "1 raja de canela de 4-5 cm",
+      "4-5 clavos de olor",
+      "1 taza de azúcar (ajustar al gusto)",
+      "1 pizca de sal",
+      "1 lata de leche evaporada",
+      "1 taza de leche condensada (opcional)",
+      "Canela en polvo para decorar"
+    ],
+    steps: [
+      "Lava el maíz trillado y remójalo en agua desde la noche anterior",
+      "Al día siguiente, escurre el maíz y colócalo en una olla grande",
+      "Cubre con agua fresca y añade la canela y los clavos de olor",
+      "Cocina a fuego medio por 45-60 minutos hasta que el maíz esté tierno",
+      "Escurre el exceso de agua y retira la canela y los clavos",
+      "Añade la leche de coco y cocina a fuego lento por 20 minutos",
+      "Agrega el azúcar y la pizca de sal, revolviendo bien",
+      "Si deseas más cremosidad, añade la leche condensada",
+      "Cocina por 10 minutos más hasta obtener la consistencia deseada",
+      "Sirve caliente en tazones individuales",
+      "Decora con leche evaporada y espolvorea canela en polvo"
+    ],
+    story: "El chacá era el desayuno tradicional de los días de fiesta y las mañanas frías en las montañas de San Juan. Mi abuela Altagracia lo preparaba en una olla de barro mientras nos contaba historias de cuando era joven. Ella decía que este plato era 'la comida de los angelitos' por su color blanco y su dulzura suave. Hoy, el aroma del chacá cocinándose me transporta inmediatamente a su cocina, con el fogón de leña y el sonido del pilón moliendo café."
+  },
+  {
+    id: 3,
+    name: "Moro de Guandules con Coco",
+    image: "/images/moro-guandules.jpg",
+    prepTime: "45 minutos",
+    difficulty: "Media",
+    ingredients: [
+      "2 tazas de arroz",
+      "1 taza de guandules verdes frescos o congelados",
+      "1 litro de leche de coco",
+      "1 cebolla grande picada",
+      "1 pimiento verde picado",
+      "4 dientes de ajo machacados",
+      "1 manojo de cilantro ancho",
+      "1 cucharada de pasta de tomate",
+      "2 hojas de laurel",
+      "1 cucharadita de orégano",
+      "2 cucharadas de aceite de oliva",
+      "Sal y pimienta al gusto",
+      "1 cucharadita de sazón completo"
+    ],
+    steps: [
+      "En una olla grande, calienta el aceite y sofríe la cebolla, pimiento y ajo hasta que estén dorados",
+      "Añade los guandules y cocina por 5 minutos revolviendo constantemente",
+      "Agrega la pasta de tomate, cilantro picado, orégano y hojas de laurel",
+      "Vierte la leche de coco y añade sal, pimienta y sazón al gusto",
+      "Cuando empiece a hervir, incorpora el arroz lavado y escurrido",
+      "Revuelve bien y cocina a fuego medio-alto hasta que seque la superficie",
+      "Baja el fuego al mínimo, tapa la olla y cocina por 20-25 minutos",
+      "Apaga el fuego y deja reposar tapado por 10 minutos más",
+      "Destapa y remueve suavemente con un tenedor antes de servir"
+    ],
+    story: "Este moro se preparaba tradicionalmente los domingos después de misa, cuando toda la familia se reunía para el almuerzo. Mi tía abuela Carmen, que era la experta en guandules, siempre decía que el secreto estaba en el 'punto' del coco. El aroma de este plato llenaba toda la casa y era la señal de que pronto estaríamos todos alrededor de la mesa, compartiendo no solo la comida sino también las historias de la semana. Cada bocado es un viaje a esas tardes domingueras llenas de risas y conversación."
+  },
+  {
+    id: 4,
+    name: "Pastelón de Plátano Maduro",
+    image: "/images/pastelon.jpg",
+    prepTime: "1 hora 15 minutos",
+    difficulty: "Difícil",
+    ingredients: [
+      "6 plátanos maduros (muy amarillos)",
+      "500g de carne molida de res",
+      "1 cebolla roja picada",
+      "1 pimiento rojo picado",
+      "4 dientes de ajo picados",
+      "1 taza de salsa de tomate",
+      "1/2 taza de aceitunas rellenas picadas",
+      "1/4 taza de pasas (opcional)",
+      "2 huevos batidos",
+      "2 tazas de queso mozzarella rallado",
+      "1 taza de queso cheddar rallado",
+      "1 cucharadita de orégano",
+      "1 cucharadita de comino",
+      "Sal y pimienta al gusto",
+      "Mantequilla para engrasar",
+      "Aceite para freír"
+    ],
+    steps: [
+      "Pela los plátanos y córtalos en rodajas longitudinales delgadas",
+      "Fríe las rodajas en aceite caliente hasta que estén doradas por ambos lados",
+      "Escurre sobre papel absorbente y reserva",
+      "En una sartén, dora la carne molida con la cebolla, ajo y pimiento",
+      "Añade la salsa de tomate, aceitunas, pasas y especias",
+      "Cocina por 10-15 minutos hasta que el guiso espese",
+      "Precalienta el horno a 180°C (350°F)",
+      "Engrasa un molde para horno con mantequilla",
+      "Coloca una capa de plátanos fritos en el fondo del molde",
+      "Añade una capa del guiso de carne y espolvorea queso",
+      "Repite las capas hasta terminar los ingredientes",
+      "La última capa debe ser de plátanos",
+      "Vierte los huevos batidos sobre toda la superficie",
+      "Cubre con el resto del queso mezclado",
+      "Hornea por 25-30 minutos hasta que esté dorado y burbujeante",
+      "Deja reposar 10 minutos antes de cortar y servir"
+    ],
+    story: "El pastelón era la estrella indiscutible de las Navidades en casa de mi abuela. Doña Ana, como todos la llamaban, empezaba su preparación desde temprano en la mañana del 24 de diciembre. Mientras pelaba los plátanos, nos contaba cómo su madre le enseñó que 'un pastelón perfecto debe ser dulce como la vida y sustancioso como el amor familiar'. El momento de sacarlo del horno era mágico - toda la familia se reunía en la cocina esperando ese primer corte que revelaba las capas perfectas. Hoy, esta receta sigue siendo nuestro tesoro familiar más preciado, el hilo que une cuatro generaciones alrededor de la mesa navideña."
+  }
+];

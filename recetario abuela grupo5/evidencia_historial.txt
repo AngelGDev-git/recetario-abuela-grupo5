@@ -1,0 +1,19 @@
+Historial de Commits - Recetario "Sabores de mi Abuela"
+
+commit a1b2c3d4 (HEAD -> main)
+Author: Grupo-e <grupo-e@ejemplo.com>
+Date:   [10/27/2025]
+    Agregar animaciones CSS y modo oscuro
+
+commit e5f6g7h8
+Author: grupo-e <grupo-e@ejemplo.com>
+Date:   [Fecha Anterior]
+    Implementar componentes de recetas y navegación
+
+commit i9j0k1l2
+Author: Grupo-e <grupo-e@ejemplo.com>
+Date:   [Fecha Inicial]
+    Crear estructura inicial del proyecto React
+
+Para generar este archivo en un proyecto real, usar:
+git log --oneline > evidencia_historial.txt
