@@ -32,9 +32,10 @@ const Footer = () => {
         </div>
         
         <div className="footer-bottom">
-          <p>&copy; 2024 Sabores de mi Abuela - Grupo 5. Todos los derechos reservados.</p>
-          <p>Proyecto educativo para preservar la cultura gastronómica dominicana.</p>
-        </div>
+          <p>&copy; 2024 Sabores de mi Abuela - Grupo 5.
+            Angel Gabriel Carela-1006119254  Arianny Rossis-100656669 Maria Soriano-100564584 Randy Garcia-100533464
+             </p>
+           </div>
       </div>
     </footer>
   );
